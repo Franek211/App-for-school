@@ -1,7 +1,7 @@
 import os as os
 import time as time
 
-C = "C:\\Users\\dedaf\\Desktop\\Wszystko\\App\\App"
+C = "C:\\App\\App"
 classa = "class.py"
 
 os.chdir(C)
