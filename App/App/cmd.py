@@ -3,7 +3,7 @@ import math
 import os
 import sys
 
-key = "C:\\Users\\dedaf\\Desktop\\Wszystko\\App\\App"
+key = "C:\\App\\App"
 os.chdir(key)
 keys = open("KEY.key")
 key_key_sys = keys.read()
@@ -33,10 +33,10 @@ if key_key_sys == boot_code:
         if command == "exit":
             sys.exit()
         if command == "start app visual studio code":
-            os.chdir("C:\\Users\\dedaf\\Desktop\\Wszystko\\App\\Protocol\\Start-App")
+            os.chdir("C:\\App\\Protocol\\Start-App")
             os.startfile("Visual-Code.py")
         if command == "start app putty":
-            os.chdir("C:\\Users\\dedaf\\Desktop\\Wszystko\\App\\Protocol\\Start-App")
+            os.chdir("C:\\App\\Protocol\\Start-App")
             os.startfile("PuTTy.py")
         if command == "security":
             if key_key_sys == boot_code:
@@ -45,6 +45,6 @@ if key_key_sys == boot_code:
                     print("Oh on boot code is not correct")
                     sys.exit()
         if command == "start app sweet":
-            os.chdir("C:\\Users\\dedaf\\Desktop\\Wszystko\\App\\Protocol\\Start-App")
+            os.chdir("C:\\App\\Protocol\\Start-App")
             os.startfile("Sweet_Home_3D.py")
         
