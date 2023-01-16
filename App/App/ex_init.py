@@ -6,7 +6,7 @@ class initing ():
     sys_corect = "sys-start = yes"
     sys_not_correct = "sys-start = no"
 
-    keys = "C:\\Users\\dedaf\\Desktop\\Wszystko\\App\\App"
+    keys = "C:\\App\\App"
     os.chdir(keys)
     key = open('key-ss.par')
     sys1 = key.read()
@@ -17,7 +17,7 @@ class initing ():
         T_n = input("Do you want to run Terminal (Yes / No):")    
         if T_n == "Yes":
             terminal = "cmd.py"
-            keys = "C:\\Users\\dedaf\\Desktop\\Wszystko\\App\\App"
+            keys = "C:\\App\\App"
             os.chdir(keys)
             os.startfile(terminal)    
         if T_n == "No":
