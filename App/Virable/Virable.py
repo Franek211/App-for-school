@@ -1,6 +1,6 @@
 import os as os
 
-vir = "D://App//Virable"
+vir = "C://App//Virable"
 boot_accept = "Start-Accept = Yes"
 
 os.chdir(vir)
