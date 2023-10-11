@@ -13,7 +13,7 @@ class initing ():
 
     if sys_corect == sys1:
         print("HEllO cmd")
-        print("Do you want to run Terminal (Yes / No)")
+        print("Do you want to run Terminal (Yes /No)")
         T_n = input("Do you want to run Terminal (Yes / No):")    
         if T_n == "Yes":
             terminal = "cmd.py"
